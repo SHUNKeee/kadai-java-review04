@@ -10,8 +10,9 @@ public class Human extends Animal implements Thinkable {
 
     //引数ありコンストラクタ
     public Human(String name,int age,String hobby) {
-        super.setName(name);
-        super.setAge(age);
+    	super(name,age);
+        //super.setName(name);
+        //super.setAge(age);
         this.hobby=hobby;
     }
 
